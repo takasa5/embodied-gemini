@@ -1,6 +1,7 @@
 {  
   "allowedTools": [
         "activate_skill",
-        "ShellTool(venv/bin/python)"
+        "ShellTool(venv/bin/python)",
+        "ShellTool(python)"
     ]  
 }
