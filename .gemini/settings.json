@@ -1,5 +1,18 @@
 {  
-  "allowedTools": [
+    "hooks": {
+        "BeforeAgent": [
+            {
+                "hooks": [
+                    {
+                        "name": "load-memory",
+                        "type": "command",
+                        "command": "$GEMINI_PROJECT_DIR/.gemini/hooks/load-memory.sh"
+                    }
+                ]
+            }
+        ]
+    },
+    "allowedTools": [
         "activate_skill",
         "ShellTool(venv/bin/python)",
         "ShellTool(python)"
